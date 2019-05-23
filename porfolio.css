@@ -1,0 +1,187 @@
+/*
+list-style-type: none;                                      -removes bullets in lists
+text-decoration: none;                                      -removes underline from hyperlink
+*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    margin: 0px auto;
+    padding: 0px;
+    width: 780px;
+    min-height: 900px;
+    background-color: #6f5964;
+    background-image: repeating-linear-gradient(black,#6f5964);
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: white;
+    width: 738px;
+    height: 70px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.header h3{
+    left:  738px;
+    top: 25px;
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+    margin-right: 302px;
+}
+.image{
+    width: 352px;
+    border: solid gray 4px;
+    margin-left: 30px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+    .image img{
+        width:352px;
+    }
+h4{
+    display: block;
+    background-color: #8c8a97;
+    background-image: repeating-linear-gradient(#b1b0b4,#9d9ca4, #878593,#9d9ca4,#b1b0b4);
+    color: white;
+    padding: 8px;
+    margin: 0px;
+}
+h5{
+    display: block;
+    background-color: #8c8a97;
+    background-image: repeating-linear-gradient(#b1b0b4,#9d9ca4, #8c8a97,#9d9ca4, #b1b0b4);
+    color: white;
+    padding: 6px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+}
+/*box1*/
+.box1{
+    background-color: white;
+    width:360px;
+    background-image: repeating-linear-gradient(to right, white, #dccedc);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400px;
+    display: inline-block;
+    height: 245px;
+    margin: 0px;
+}
+ .box1 p{
+    padding: 10px;
+    padding-top: 4px;
+    margin: 0px;
+    text-align: left;
+}
+.box1 a{
+    padding: 10px;
+}
+/*box2*/
+.box2{
+    background-color: white;
+    width:230px;
+    background-image: repeating-linear-gradient(to right, white, #dccedc);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400px;
+    display: inline-block;
+    min-height: 238px;
+    margin-left: 30px;
+    padding: 0px;
+}
+.lamode{
+    width: 220px;
+}
+.box2 p{
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.button{
+    height: 25px;
+    margin: 4px;
+    padding-left:8px;
+    margin-bottom: 8px;
+}
+.link{
+    display: block;
+    text-align: center;
+    padding: 6px;
+    background-color: #407d61;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+}
+/*box3*/
+.box3{
+    background-color: white;
+    width:230px;
+    background-image: repeating-linear-gradient(to right, white, #dccedc);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400px;
+    display: inline-block;
+    min-height: 238px;
+    margin-left: 15px;
+    padding: 0px;
+}
+.box3 a{
+    display: block;
+    text-align: center;
+    padding: 6px;
+    background-color: #407d61;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.box3 p{
+    margin: 10px;
+    margin-bottom: 40px;
+}
+/*box4*/
+.box4{
+    background-color: white;
+    width:230px;
+    background-image: repeating-linear-gradient(to right, white, #dccedc);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400px;
+    display: inline-block;
+    min-height: 238px;
+    margin-left: 15px;
+    padding: 0px;
+}
+.box4 a{
+    display: block;
+    text-align: center;
+    padding: 6px;
+    background-color: #407d61;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.box4 p{
+    margin: 10px;
+    margin-bottom: 40px;
+}
